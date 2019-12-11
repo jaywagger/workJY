@@ -1,4 +1,4 @@
-package chap06method;
+package chap06OOPMethodnStatic;
 //클래스를 정의하고 멤버변수를 정의하는 방법
 // - 멤버변수를 정의할때는 특별한 경우를 제외하고 초기값을 주지 않는다
 // - 초기값을 정의하지 않아도 참조형은 null, 정수형 0, 실수형 0.0, boolean은 false로 초기화된다
@@ -23,6 +23,14 @@ public class Person {
 		//메소드명: set을 붙히고: set + 멤버변수명, 단 첫번째는 대문자.
 		//			setName
 		//set 리턴값이 없으므로 void다
+		
+		public Person(String name, String addr, int age) {
+			this.name = name;
+			this.addr = addr;
+			this.age = age;
+			//set는 하나만 특정하게 수정할 떄 용이
+		}
+		
 		
 		//이름을 변경하는 기능의 메소드
 		public void setName(String name) { //문자를 받기 때문에 String
@@ -62,6 +70,12 @@ public class Person {
 		public int getAge() {
 			return this.age;
 		}
+
+		@Override
+		public String toString() {
+			return "Person [name=" + name + ", addr=" + addr + ", age=" + age + "]";
+		}
+		
 		
 	
 

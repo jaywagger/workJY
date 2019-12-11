@@ -1,4 +1,4 @@
-package chap06method;
+package chap06OOPMethodnStatic;
 //Person클래스를 사용하는 클래스
 public class PersonTest {
 	public static void main(String[] args) {

@@ -5,6 +5,15 @@ public class Account {
 	private int balance;
 	private double interestRate; //이자율
 	
+	//기본생성자
+	public Account(String account, int balance, double interestRate) {
+		this.account = account;
+		this.balance = balance;
+		this.interestRate = interestRate;
+	} //오른쪽 클릭-소스-generate에 있다
+	
+	
+	
 	//계좌번호
 	public void setAccount(String account) { 
 		this.account = account;	

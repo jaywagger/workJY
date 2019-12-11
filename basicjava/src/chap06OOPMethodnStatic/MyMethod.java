@@ -1,4 +1,4 @@
-package chap06method;
+package chap06OOPMethodnStatic;
 //메소드 정의 연습을 위한 클래스
 public class MyMethod {
 	//4. 매개변수, 리턴값이 모두 있는 메소드

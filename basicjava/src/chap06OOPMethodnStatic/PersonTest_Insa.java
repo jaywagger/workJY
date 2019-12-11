@@ -1,4 +1,4 @@
-package chap06method;
+package chap06OOPMethodnStatic;
 
 import java.util.Scanner;
 

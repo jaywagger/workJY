@@ -1,6 +1,6 @@
 package workbook;
-//Student에서 활용될 메소드 만들기
-public class Student {
+//Student01에서 setter 대신 활용될 생성자 메소드 만들기
+public class Student01Constructor {
 	
 	private String name;
 	private int math;
@@ -8,12 +8,10 @@ public class Student {
 	private int kor;
 	private int eng;
 	
-	public Student () {
-		
-	}
-	
-	public Student (String name, int math, int sci, int kor, int eng) {
-		this.math = math;
+	//생성자 사용
+	public Student01Constructor (String name, int math, int sci, int kor, int eng) {
+		this.name = name;
+		this.math = math; 
 		this.sci = sci;
 		this.kor = kor;
 		this.eng = eng;

@@ -1,4 +1,4 @@
-package chap06method;
+package chap06OOPMethodnStatic;
 //MyMethodClass에서 정의한 메소드를 사용하는 클래스
 public class MyMethodTest {
 	public static void main(String[] args) {
