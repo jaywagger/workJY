@@ -6,6 +6,7 @@ public class OprTest01 {
 		int y;
 		x = 5;
 		y = x++;
+		//y=x; 이거는 6
 		System.out.println("x의 값=>"+x);
 		System.out.println("y의 값=>"+y);
 		System.out.println("==========================");

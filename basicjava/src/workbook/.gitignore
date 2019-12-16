@@ -22,6 +22,7 @@
 /SchoolStudentTest.class
 /CompanyTeacher.class
 /CompanyTeacherTest.class
+<<<<<<< HEAD
 /WorkbookP74Q06.class
 /Shape.class
 /Mobile.class
@@ -51,3 +52,12 @@
 /P74Q06Shape.class
 /P74Q06ShapeTest.class
 /P74Q06Triangle.class
+=======
+/Workbook07P14.class
+/WorkbookP14Q07.class
+/WorkbookP15Q08.class
+/WorkbookP3Q01.class
+/WorkbookP3Q02.class
+/WorkbookP4Q03.class
+/WorkbookP5Q04.class
+>>>>>>> dd52011c7b9156abba43910a0c2149760c79bae2

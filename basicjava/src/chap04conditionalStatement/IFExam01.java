@@ -12,7 +12,7 @@ public class IFExam01 {
 		int num = key.nextInt();
 		System.out.println();
 	
-		if(num > 1)
+		if(num > 0)
 		{
 			
 			System.out.println("입력하신 값은 양수입니다.");
@@ -29,10 +29,12 @@ public class IFExam01 {
 				System.out.print("홀수입니다");
 				System.out.println();
 			}
+		} else if (num==0) {
+			System.out.println("입력하신 값은 0입니다.");
 		}
 		else 
 		{
-			System.out.println("입력하신 값은 음수이니다");
+			System.out.println("입력하신 값은 음수입니다");
 			
 		}
 		
