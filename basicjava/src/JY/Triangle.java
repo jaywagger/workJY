@@ -9,7 +9,7 @@ public class Triangle extends Shape implements Resize{
 	}
 	@Override
 	public void setResize(int size) {
-		setResize(getHeight()+ size);
+		setHeight(getHeight()+ size);
 	}
 	@Override
 	public double getArea() {

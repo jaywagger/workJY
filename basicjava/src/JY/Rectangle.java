@@ -9,7 +9,7 @@ public class Rectangle extends Shape implements Resize{
 	}
 	@Override
 	public void setResize(int size) {
-		setResize(getWidth()+ size);
+		setWidth(getWidth()+ size);
 	}
 	@Override
 	public double getArea() {

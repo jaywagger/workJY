@@ -1,7 +1,4 @@
 package JY;
-
-import workbook.P74.Rectangle;
-
 //워크북 74페이지 6번 문제
 public class ShapeTest {
 	public static void main(String[] args) {
@@ -14,7 +11,7 @@ public class ShapeTest {
 		shape[5] = new Rectangle(5, 7, "White");
 		// 배열 초기화
 		System.out.println("기본정보" + "\t" + "\t면적" + "\t" + "색상");
-		System.out.println("-----------------------------------------");
+		System.out.println("--------------------------------");
 		String name = "";
 		for (int i = 0; i < shape.length; i++) {
 			if (shape[i] instanceof Triangle) {
@@ -23,18 +20,19 @@ public class ShapeTest {
 				name = "Rectangle";
 			}
 			{
-				System.out.println(name + "\t" + shape[i].getArea() + "\t" + shape[i].getColors());
+				System.out.println(name + "\t" + shape[i].getArea() + "\t" 
+			+ shape[i].getColors());
 			}
 		}//사이즈 변경 후 정보
-		System.out.println("-----------------------------------------");
+		System.out.println("--------------------------------");
 		System.out.println("사이즈 변경 후 정보");
 		for (int i = 0; i < shape.length; i++) {
 			if (shape[i] instanceof Triangle) {
+				name = "Triangle";
 				((Triangle) shape[i]).setResize(5);
 				name = "Triangle";
 			} else ((Rectangle) shape[i]).setResize(5);
 				name = "Rectangle";
-			
 			{
 				System.out.println(name + "\t" + shape[i].getArea() + "\t" + shape[i].getColors());
 			}
