@@ -3,20 +3,24 @@ package JY;
 public class L3 extends Car implements Temp{
 	//기본생성자
 	public L3() {
-	}public L3(String name, String engine, int oilTank, 
-								int oilSize, int distance) {
-		
 	}
+	public L3(String name, String engine, int oilTank, int oilSize, int distance) {
+		super(name, engine, oilTank, oilSize, distance);
+	}
+
 	@Override
 	public int getTempGage() {
-		return 0;
+		int tempGage = 0;
+		tempGage = getDistance()/10;
+		return tempGage;
 	}
 	@Override
 	public void go(int distance) {
-		
+		setDistance(getDistance()+distance);
+		setOilSize(getOilSize()-distance/10);
 	}
 	@Override
 	public void setOil(int oilSize) {
-		
+		setOilSize(getOilSize()+oilSize); 
 	}
 }

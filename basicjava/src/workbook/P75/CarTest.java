@@ -7,6 +7,7 @@ public class CarTest {
 		car[0] = new L3("L3", "1500", 50, 25, 0);
 		car[1] = new L5("L5", "2000", 70, 35, 0);
 		Car.show();
+		
 		for (int i = 0; i < car.length; i++) {
 			System.out.print(car[i].getName() + "\t\t" + car[i].getEngine() + "\t\t" + car[i].getOilTank() + "\t"
 					+ car[i].getOilSize() + "\t" + car[i].getDistance());
