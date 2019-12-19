@@ -1,4 +1,4 @@
-package JY;
+package FreeExercise.Car;
 //워크북 77페이지 7번 문제
 public abstract class Car {
 	private String name; //이름

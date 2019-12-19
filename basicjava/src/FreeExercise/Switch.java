@@ -1,4 +1,4 @@
-package JY;
+package FreeExercise;
 
 import java.util.Scanner;
 

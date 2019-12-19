@@ -1,4 +1,4 @@
-package JY;
+package FreeExercise.Shape;
 //况农合 74其捞瘤 6锅 巩力
 public class ShapeTest {
 	public static void main(String[] args) {

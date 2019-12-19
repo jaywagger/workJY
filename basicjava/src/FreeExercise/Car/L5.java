@@ -1,4 +1,4 @@
-package JY;
+package FreeExercise.Car;
 
 public class L5 extends Car implements Temp {
 	//기본생성자
