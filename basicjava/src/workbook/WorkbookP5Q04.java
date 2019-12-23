@@ -9,7 +9,8 @@ public class WorkbookP5Q04 {
 		{boolean b = true;
 		System.out.println(b);}
 		System.out.println("=============================");
-		boolean b = ('a'<=ch&&ch<='z' || 'A'<=ch&&ch<='Z');
+		
+		boolean b = ('a'<=ch && ch<='z' || 'A'<=ch && ch<='Z');
 		System.out.println(b);
 	}
 
