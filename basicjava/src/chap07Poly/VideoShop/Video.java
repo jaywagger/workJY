@@ -1,4 +1,4 @@
-package chap07Poly;
+package chap07Poly.VideoShop;
 //다형성 예제: Videoshop, content, video
 public class Video extends Content{
 	String genre;

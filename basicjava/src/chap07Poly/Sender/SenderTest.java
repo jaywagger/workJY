@@ -1,4 +1,4 @@
-package chap07Poly;
+package chap07Poly.Sender;
 import java.util.Scanner;
 
 public class SenderTest {

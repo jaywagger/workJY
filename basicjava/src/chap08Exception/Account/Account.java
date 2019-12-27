@@ -1,4 +1,4 @@
-package chap08Exception;
+package chap08Exception.Account;
 
 public class Account extends Exception{
 	private String account;

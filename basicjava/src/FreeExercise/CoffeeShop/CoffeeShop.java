@@ -1,7 +1,10 @@
-package chap07Poly;
+package FreeExercise.CoffeeShop;
 
-//다형성연습: CoffeShop, Beverage, Tea, Coffee
-public class CoffeShop {
+import FreeExercise.CoffeeShop.Beverage;
+import FreeExercise.CoffeeShop.Coffee;
+import FreeExercise.CoffeeShop.Tea;
+
+public class CoffeeShop {
 	public static void main(String[] args) {
 		System.out.println("****java nara CoffeeShop영업개시****");
 		Beverage[] beverage = new Beverage[5];

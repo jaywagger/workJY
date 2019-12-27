@@ -1,4 +1,4 @@
-package chap07Poly;
+package chap07Poly.CoffeeShop;
 //다형성연습: CoffeShop, Beverage, Tea, Coffee
 public class Tea extends Beverage {
 	static int amount;

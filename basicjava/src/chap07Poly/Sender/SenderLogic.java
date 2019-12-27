@@ -1,4 +1,4 @@
-package chap07Poly;
+package chap07Poly.Sender;
 //sender 클래스를 사용할 것 이다
 public class SenderLogic {
 	public void run(Sender obj) { //부모타입의 변수로 매개변수를 선언하면 

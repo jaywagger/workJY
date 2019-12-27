@@ -53,6 +53,7 @@ public class ThrowsTest02 {
 		ThrowsTest02 obj = new ThrowsTest02();
 		obj.show();
 		
+		
 	}
 
 }

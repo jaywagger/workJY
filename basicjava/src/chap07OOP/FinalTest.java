@@ -1,5 +1,6 @@
 package chap07OOP;
-final class FinalSuper {
+//final class FinalSuper {
+class FinalSuper {
 	public final void display() {
 		System.out.println("super display");
 	}

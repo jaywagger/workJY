@@ -1,4 +1,4 @@
-package chap07Poly;
+package chap07Poly.Sender;
 //나중에 추가됬지만 다른 파일을 수정할 필요가 없음.
 //다 연동됌. 그 이유는
 // 상위폴더를 상속받았기 때문. 

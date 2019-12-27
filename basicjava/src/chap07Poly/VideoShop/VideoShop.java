@@ -1,4 +1,4 @@
-package chap07Poly;
+package chap07Poly.VideoShop;
 //다형성 예제1: Content클래스와 Video클래스 만들기
 //다형성 예제: Videoshop, content, video
 public class VideoShop {

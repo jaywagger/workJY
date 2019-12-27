@@ -20,17 +20,18 @@ public class Array2DExam01 {
 			{
 				myarry [j][i] = num;
 				num++;
-			}
+				System.out.print(myarry[j][i]+"\t");
+			}System.out.println();
 		}
 		//3.2차원 배열에 저장된 데이터를 출력형태와 같이 출력하기.
-		for(int j=0; j<myarry.length;j++)
+		/*for(int j=0; j<myarry.length;j++)
 		{
 			for(int i=0; i<myarry[j].length; i++)
 			{
 				System.out.print(myarry[j][i]+"\t");
 			}
 			System.out.println();
-		}
+		}*/
 		System.out.println("================별별별===============");
 		
 		for(int j=0; j<myarry.length;j++)

@@ -1,4 +1,4 @@
-package chap07Poly;
+package chap07Poly.CoffeeShop;
 //다형성연습: CoffeShop, Beverage, Tea, Coffee
 public abstract class Beverage {
 	private String name; //-는 private
@@ -31,9 +31,4 @@ public abstract class Beverage {
 		this.price = price;
 	}
 	
-
-	
-
-
-
 }
