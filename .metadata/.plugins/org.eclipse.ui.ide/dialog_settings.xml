@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\IoT_JY Hwang\SQL"/>
 		<item value="C:\IoT_JY Hwang\javawork\basicjava\src\basicjava\src"/>
 		<item value="C:\IoT_JY Hwang\javawork\basicjava\src"/>
 	</list>
