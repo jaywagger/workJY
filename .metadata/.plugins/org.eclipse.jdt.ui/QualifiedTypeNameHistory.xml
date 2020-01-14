@@ -6,4 +6,8 @@
 <fullyQualifiedTypeName name="com.sun.org.apache.xpath.internal.operations.Equals"/>
 <fullyQualifiedTypeName name="jdbt.board.exam.MenuUI"/>
 <fullyQualifiedTypeName name="jdbt.board.exam.BoardDAOImpl"/>
+<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
 </qualifiedTypeNameHistroy>
