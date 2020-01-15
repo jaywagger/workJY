@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-GitRepositoriesView.GitDirectories=C\:\\iot\\work\\javawork\\advancedJava\\.git;C\:\\Users\\JY Hwang\\Desktop\\TIL\\.git;C\:\\IoTJY\\workJY\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\iot\\work\\javawork\\advancedJava\\.git;C\:\\Users\\JY Hwang\\Desktop\\TIL\\.git;.git;
-=======
-GitRepositoriesView.GitDirectories=C\:\\IoT_JY Hwang\\SQL\\.git;C\:\\Users\\JY Hwang\\Desktop\\TIL\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\IoT_JY Hwang\\SQL\\.git;C\:\\Users\\JY Hwang\\Desktop\\TIL\\.git;
->>>>>>> 9018024d7c5fa85fcc04d6015c6076a41bc8e3d6
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=9018024d7c5fa85fcc04d6015c6076a41bc8e3d6
+GitRepositoriesView.GitDirectories=C\:\\IoT_JY Hwang\\SQL\\.git;C\:\\Users\\JY Hwang\\Desktop\\TIL\\.git;C\:\\IoTJY\\workJY\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\IoT_JY Hwang\\SQL\\.git;C\:\\Users\\JY Hwang\\Desktop\\TIL\\.git;.git;
 eclipse.preferences.version=1

@@ -1,13 +1,4 @@
 /.metadata/
-/.project
-/APIUtil/
-/FreeExercise/
-/RemoteSystemsTempFiles/
-/TestExam/
-/chap01basic/
-/chap02variable/
-/chap03operator/
-/chap04conditionalStatement/
 /chap04loop/
 /chap05array/
 /chap06OOPConstructor/
@@ -16,5 +7,4 @@
 /chap07Poly/
 /chap08Exception/
 /chap09APILang/
-/test.txt
 /workbook/
